@@ -1,0 +1,115 @@
+
+
+
+
+.toad{
+    width: 3%;
+    position: absolute;
+    top:16em;
+    animation-name: drive;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+.warluigi{
+    width: 3%;
+    position: absolute;
+    top:20em;
+    animation-name: drive2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+#tree{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    background-color: transparent
+}
+#tree1{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    background-color: transparent
+}
+#tree2{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    background-color: transparent;
+    left:20em;
+}
+#tree3{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    background-color: transparent;
+    left:30em;
+}
+#tree4{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    left:90em;
+    background-color: transparent;
+}
+#tree5{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    background-color: transparent;
+    left:70em;
+}
+#tree6{
+    position : absolute;
+    width:3%;
+    bottom: 19em;
+    left:50em;
+    background-color: transparent
+}
+.tree:hover{
+    transform: rotateX(20deg)
+
+}
+
+
+.racetrack{
+    height:30%;
+    background:rgb(110, 109, 109);
+    box-sizing: border-box;
+    border-top:2em solid rgb(37, 37, 43);
+    border-bottom:2em solid rgb(37, 37, 43);
+    position: relative;
+    top:15em;
+    z-index: -1;
+}
+.lines{
+    position: absolute;
+    top:20rem;
+    color: white;
+    overflow: hidden;
+    font-size: 1em;
+   
+}
+@keyframes drive{
+    
+    from{transform: translatex(-20px)}
+    to{transform: translatex(1400px)}
+}
+@keyframes drive2{
+    
+    from{transform: translatex(1400px)}
+    to{transform: translatex(-20px)}
+}
+@keyframes jump{
+    
+    
+    from{transform: translate(1100px)}
+    to{transform: translatex(-20px)}
+}
+
+
+    
